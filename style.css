@@ -1,0 +1,57 @@
+body {
+    color: black;
+    background-color: yellowgreen;
+    font-family: Arial, sans-serif; /* This sets a more readable default font */
+}
+
+table {
+    border-collapse: collapse; /* This removes the space between the borders */
+    width: 100%; /* This sets the table to take full width of the container */
+    margin-top: 20px; /* This adds some space at the top of the table */
+}
+
+th, td {
+    border: 1px solid #ddd; /* This adds a subtle border to the table cells */
+    text-align: left; /* This aligns the text to the left */
+    padding: 8px; /* This adds some padding around the cell content */
+}
+
+th {
+    background-color: #04AA6D; /* This sets a background color for the header cells */
+    color: white; /* This sets the text color for the header cells */
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2; /* This sets a background color for even rows */
+}
+
+tr:hover {
+    background-color: #ddd; /* This adds a hover effect on table rows */
+}
+
+/* This styles the table headers */
+th {
+    height: 50px;
+}
+
+/* This styles the table data */
+td {
+    height: 30px;
+}
+
+/* Add some padding and centering to the body content */
+body {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Enhance the visual appearance of the table header */
+th {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Style the table data for better readability */
+td {
+    font-size: 18px;
+}
